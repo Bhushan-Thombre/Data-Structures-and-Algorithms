@@ -124,7 +124,7 @@ public class Main {
         for (int u: adjList.get(s)) {
             if (!visited[u] && cycleDetectDirectedDFS(adjList, u, visited, recStack)) {
                 return true;
-            }else if (!recStack[u]) {
+            }else if (recStack[u]) {
                 return true;
             }
         }
