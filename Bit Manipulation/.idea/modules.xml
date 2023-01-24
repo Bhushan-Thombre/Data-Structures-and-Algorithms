@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bit Manipulation.iml" filepath="$PROJECT_DIR$/.idea/Bit Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Count Set Bits/Count Set Bits.iml" filepath="$PROJECT_DIR$/Count Set Bits/Count Set Bits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kth bit is set/Kth bit is set.iml" filepath="$PROJECT_DIR$/Kth bit is set/Kth bit is set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/One Odd Occurring Number/One Odd Occurring Number.iml" filepath="$PROJECT_DIR$/One Odd Occurring Number/One Odd Occurring Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Power of 2/Power of 2.iml" filepath="$PROJECT_DIR$/Power of 2/Power of 2.iml" />
+    </modules>
+  </component>
+</project>
