@@ -52,10 +52,10 @@ public class EditDistance {
     static int table(String str1, String str2, int m, int n) {
         int[][] table = new int[m + 1][n + 1];
         for (int i = 0; i <= m; i++) {
-            table[0][i] = i;
+            table[i][0] = i;
         }
         for (int j = 0; j <= n; j++) {
-            table[j][0] = j;
+            table[0][j] = j;
         }
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {

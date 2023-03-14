@@ -5,13 +5,20 @@ major applications.
 
 ## Content
 
+- Arrays
+- Strings
+- Searching 
+- Sorting
 - Linked List
 - Stacks
 - Queues
 - Trees
 - Graphs
-- Heaps
 - Hashing
+- Heaps
+- Backtracking
+- Dynamic Programming
+- File Handling
 
 <p align='center'>
     <img src='data.jpeg' alt='Data Structures and Algorithms'>

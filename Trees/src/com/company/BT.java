@@ -4,9 +4,9 @@
 
 // The height of the binary tree is defined as the number of nodes between root and leaf nodes on the longest path.
 // The level of a node in the binary tree is the number of nodes between root and the given node. The level of root node is zero.
-// Number of edges associated with a node is called degree of the node. Number of edges coming towards the node is called indegree
-// while number of edges going away from a node is called outdegree. The sum of indegree and outdegree is degree of the node.
-// Root nodes have a indegree of zero while leaf nodes have outdegree of zero.
+// Number of edges associated with a node is called degree of the node. Number of edges coming towards the node is called in-degree
+// while number of edges going away from a node is called out-degree. The sum of in-degree and out-degree is degree of the node.
+// Root nodes have in-degree of zero while leaf nodes have out-degree of zero.
 
 // If a Binary Tree has n nodes than:
 // H(max) = n
