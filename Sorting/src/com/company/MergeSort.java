@@ -64,3 +64,4 @@ public class MergeSort {
 
 // Time Complexity: O(N * (logN))
 // Space Complexity: O(N)
+// Recurrence Relation: T(n) = 2T(n / 2) + (n - 1)

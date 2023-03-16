@@ -1,3 +1,21 @@
+// Adjacency Matrix Representation
+// Space Complexity = O(V * V)
+// Time Complexity
+//      Check if u and v are adjacent = O(1)
+//      Find all vertices adjacent to u = O(v)
+//      Find degree of u = O(v)
+//      Add/Remove an edge = O(1)
+//      Add/Remove a vertex = O(v * v)
+
+// Adjacency List Representation
+// Space Complexity = O(V + E)
+// Time Complexity
+//      Check if there is an edge from v to u = O(v)
+//      Find all adjacent of u = O(degree(u))
+//      Find degree of u = O(1)
+//      Add an edge = O(1)
+//      Remove an edge = O(v)
+
 package com.company;
 
 import java.util.ArrayList;
