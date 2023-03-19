@@ -6,7 +6,8 @@ public class Main {
     static int[][] board = { { 0, 0, 0, 0 },
             { 0, 0, 0, 0 },
             { 0, 0, 0, 0 },
-            { 0, 0, 0, 0 } };
+            { 0, 0, 0, 0 },
+    };
 
     static void printSolution(int[][] board) {
         for (int i = 0; i < N; i++) {
