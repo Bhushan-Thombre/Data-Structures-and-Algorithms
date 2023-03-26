@@ -1,5 +1,6 @@
-package reverseList;
+// Reverse a Linked List
 
+package reverseList;
 
 class ListNode {
     int val;
@@ -18,6 +19,7 @@ class ListNode {
         this.next = next;
     }
 }
+
 public class ReverseLinkedList {
 
 
