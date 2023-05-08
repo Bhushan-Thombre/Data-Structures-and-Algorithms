@@ -47,6 +47,35 @@ public class ReverseListInGroups {
         return prev;
     }
 
+
+    public static Node reverseInGroupIterative(Node head, int k) {
+        Node curr = head;
+        Node prevFirst = null;
+        boolean isFirstPass = true;
+
+        while (curr != null) {
+            Node first = curr;
+            Node prev = null;
+            int count = 0;
+            while (curr != null && count < k) {
+                Node Next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = Next;
+                count++;
+            }
+            if (isFirstPass) {
+                head = prev;
+                isFirstPass = false;
+            }else {
+                prevFirst.next = prev;
+            }
+            prevFirst = first;
+        }
+
+        return head;
+    }
+
     public static void printList(Node head) {
         Node temp = head;
         while (temp != null) {
@@ -61,8 +90,13 @@ public class ReverseListInGroups {
         head.next.next=new Node(3);
         head.next.next.next=new Node(4);
         head.next.next.next.next=new Node(5);
+//        System.out.println("Recursive");
+//        printList(head);
+//        head = reverseInGroupsRecursive(head, 3);
+//        printList(head);
+        System.out.println("Iterative");
         printList(head);
-        head = reverseInGroupsRecursive(head, 3);
+        head = reverseInGroupIterative(head, 3);
         printList(head);
     }
 }
