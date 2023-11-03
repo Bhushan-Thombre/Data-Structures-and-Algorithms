@@ -1,5 +1,5 @@
 // Properties of XOR operator
-// x ^ 0 = 0
+// x ^ 0 = x
 // x ^ y = y ^ x
 // x ^ (y ^ z) = (x ^ y) ^ z
 // x ^ x = 0
