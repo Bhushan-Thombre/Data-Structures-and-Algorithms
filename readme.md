@@ -7,7 +7,7 @@ major applications.
 
 - Arrays
 - Strings
-- Searching 
+- Searching
 - Sorting
 - Linked List
 - Stacks
@@ -16,9 +16,11 @@ major applications.
 - Graphs
 - Hashing
 - Heaps
+- Trie
 - Backtracking
 - Dynamic Programming
 - File Handling
+- Bit Manipulation
 
 <p align='center'>
     <img src='data.jpeg' alt='Data Structures and Algorithms'>
